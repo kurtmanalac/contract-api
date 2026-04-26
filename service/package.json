@@ -1,0 +1,16 @@
+{
+  "name": "article-chaincode-external",
+  "version": "1.0.0",
+  "description": "External Chaincode for Article Management",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "fabric-contract-api": "^2.5.0",
+    "fabric-shim": "^2.5.0"
+  }
+}
