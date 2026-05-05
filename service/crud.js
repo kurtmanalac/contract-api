@@ -3,6 +3,9 @@
 const { Contract } = require('fabric-contract-api');
 
 class ArticleContract extends Contract {
+    constructor() {
+        super('ArticleContract'); // This name is used to target the contract
+    }
 
     // --- HELPER ---
     async _getGroup(ctx, icsNumber) {
