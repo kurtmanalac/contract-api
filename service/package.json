@@ -7,7 +7,7 @@
     "node": ">=18"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "fabric-chaincode-node server"
   },
   "dependencies": {
     "fabric-contract-api": "^2.5.0",
