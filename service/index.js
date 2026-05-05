@@ -1,7 +1,7 @@
 'use strict';
 
 const shim = require('fabric-shim');
-const ArticleContract = require('./article-contract');
+const ArticleContract = require('./crud');
 
 async function main() {
     const serverOpts = {
