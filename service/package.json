@@ -7,7 +7,7 @@
     "node": ">=18"
   },
   "scripts": {
-    "start": "fabric-chaincode-node start"
+    "start": "fabric-chaincode-node start --peer-address fabric-peer.railway.internal:7051 --chaincode-id-name customcc"
   },
   "dependencies": {
     "fabric-contract-api": "^2.5.0",
