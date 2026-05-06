@@ -7,7 +7,7 @@
     "node": ">=18"
   },
   "scripts": {
-    "start": "fabric-chaincode-node server --chaincode-address 0.0.0.0:9999 --chaincode-id article_contract:2404ae33d3e86177b2f9f255441af100a3f859c02ec14d9a86a0b141f0d3dbfb"
+    "start": "fabric-chaincode-node server --chaincode-address [::]:9999 --chaincode-id article_contract:2404ae33d3e86177b2f9f255441af100a3f859c02ec14d9a86a0b141f0d3dbfb"
   },
   "dependencies": {
     "fabric-contract-api": "^2.5.0",
