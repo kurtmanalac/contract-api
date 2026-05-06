@@ -129,3 +129,5 @@ class ArticleContract extends Contract {
 }
 
 module.exports = ArticleContract;
+
+

@@ -1,4 +1,6 @@
 {
-    "type": "external",
+    "type": "ccaas",
     "label": "article_contract"
 }
+
+'{"Args":["ArticleContract:AddItemToArticleGroup", "14-0215", "[\"OVCA SPMO\",\"EXPANDING FILE\",\"Expanding File Desktop\",\"X\"]","[\"0\",\"PCS\",\"780\",\"0\",\"X\",\"24-Feb-2014\",\"26-Feb-2014\",\"SMS Marketing\",\"X\",\"WMR 21-072\"]","[\"EUSEBIO CRISTINA\",\"X\",\"0\",\"PCS\"]"]}'
